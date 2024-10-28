@@ -1,6 +1,6 @@
 import Foundation
 
-public func getFormattedTime(_ secondsInterval: TimeInterval) -> String {
+func getFormattedTime(_ secondsInterval: TimeInterval) -> String {
     let secondsIntervalAbs: TimeInterval = abs(secondsInterval)
 
     let hours = Int(secondsIntervalAbs) / 3600

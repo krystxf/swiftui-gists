@@ -1,7 +1,7 @@
+//: ## Live countdown
+
 import PlaygroundSupport
 import SwiftUI
-
-//: ## Live countdown
 
 struct PlaygroundView: View {
     var body: some View {
@@ -20,3 +20,5 @@ PlaygroundPage
     .setLiveView(
         PlaygroundView().frame(width: 500.0, height: 500.0)
     )
+
+//: [Next](@next)
